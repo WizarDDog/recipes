@@ -1,0 +1,84 @@
+* {
+    /*color: rgba(72, 72, 158, 0.8);*/
+    color: slategray;
+}
+.recipeSlide {
+    display: inline-block;
+    background-color: rgb(250, 250, 255);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.recipeImg {
+    float: left;
+    margin-left: 60px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.85;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.appear {
+    transition: all 1000ms;
+    opacity: 1;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.recipeIngredients {
+    list-style-position: outside;
+    text-align: justify;
+    float: right;
+    margin-left: 5px;
+    width: 350px;
+    margin-right: 100px;
+    line-height: 1.35em;
+}
+
+.recipeMethod {
+    margin: 50px;
+    font-size: 1.25em;
+    line-height: 1.4em;
+    text-align: justify;
+    float: right;
+    overflow: hidden;
+    height: 2.8em;
+    transition: all 1000ms;
+}
+
+.full {
+    transition: all 1000ms;
+    height: 10em;
+}
+
+a {
+    text-decoration: none;
+}
+.symbol {
+    font-size: 3.5em;
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    user-select: none;
+    /*transition: all 300ms;*/
+}
+.symbol:hover {
+    top: 8.5%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.left {
+    top: 9%;
+    left: 23%;
+}
+.right {
+    left: 72%;
+    top: 9%;
+}

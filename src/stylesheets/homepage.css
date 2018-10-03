@@ -1,0 +1,25 @@
+.contentRecipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .contentRecipePic {
+    padding: 0 30px;
+  }
+
+  .testimonials {
+    padding: 40px;
+    background: black;
+    text-align: center;
+  }
+
+  .testimonialsText {
+    color: orangered;
+    font-weight: normal;
+  }
+
+  .contentRecipeText {
+    padding: 0 30px;
+  }
